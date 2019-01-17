@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    background-image: url("http://i.cubeupload.com/NjsJx8.png");
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease-in;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;
+  }
+
+nav {
+    height: 40px;
+    width: 80%;
+    top: 0;
+    background-color: #333;
+    color: #eee;
+    position: fixed;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    display: inline;
+  }
+  nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: #eee;
+  }
+  nav li:hover {
+    background-color: rgb(146, 146, 146);
+  }
+  
+  .nav-ul li {
+      list-style: none;
+      display: inline;
+  }
+
+  #main li {
+    list-style: none;
+    padding: 15px;
+  }
+
+  #main li a {
+      text-decoration: none;
+      color: #328ae4
+  }
+
+  /* animation */
+  #main ul li {
+    transition: all .2s ease-in-out;
+      transform: translate3d(20px, 0, 0);
+  }
+  
+  #main ul li.active {
+    transform: translate3d(0px, 0, 0);
+    opacity: 1;
+  }
+
+  .header {
+    font-size: 2em;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  p {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+  }
+
+ 
+
+
+/* card style */
+  .card {
+      /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 10px;
+  }
+
+    /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* author */
+  .author {
+      display: block;
+      color: grey;
+      margin: 0;
+  }
+
+  hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  }
